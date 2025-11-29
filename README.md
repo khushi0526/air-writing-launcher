@@ -1,38 +1,53 @@
-**Air Writing Launcher**
+# ✨ Air Writing Launcher
 
-This project allows writing letters in the air using hand movements.
+Air Writing Launcher is a computer-vision project that allows users to write letters in the air using hand movements.  
+The webcam tracks the hand landmarks using **MediaPipe** and draws the trajectory in real-time.
 
-The webcam tracks the hand and draws on the screen.
+## 🚀 Features
+- Real-time hand tracking  
+- Displays dots & lines for all 21 hand landmarks  
+- Tracks index finger to draw in the air  
+- Clears drawing automatically when hand is lowered  
+- Lightweight and works on any webcam  
 
+## 🗂 Project Structure
+air-writing-launcher/
+│
+├── camera_test.py # Test your webcam
+├── hand_tracking.py # Shows hand landmarks (dots + lines)
+├── air_write_launcher.py # Main air-writing application
+└── README.md # Project documentation
 
+## 🛠 Requirements
 
-*Files:*
+Install Python packages:
 
+pip install opencv-python mediapipe numpy
 
+## ▶️ How to Run
 
-camera\_test.py — tests webcam
+### 1️⃣ Test Camera
 
+python camera_test.py
 
+### 2️⃣ See Hand Dots + Lines (Landmarks)
 
-hand\_tracking.py — shows hand dots
+python hand_tracking.py
 
+### 3️⃣ Run Air Writing
 
+python air_write_launcher.py
 
-air\_write\_launcher.py — main project
+## 🎥 Demo (Recommended)
+You can later add:
+- screenshots  
+- demo video  
+- GIF of your hand writing  
 
+## 👩‍💻 Developer
+**Khushi B S**  
+Final Year — ECE  
+India  
 
-
-*How to run*
-
-python camera\_test.py
-
-python hand\_tracking.py
-
-python air\_write\_launcher.py
-
-
-
-*Developer*
-
-Khushi B S
-
+## ⭐ Support
+If you like this project, star the repo on GitHub!
