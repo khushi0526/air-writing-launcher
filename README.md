@@ -11,11 +11,11 @@ The webcam tracks the hand landmarks using **MediaPipe** and draws the trajector
 - Lightweight and works on any webcam  
 
 ## 🗂 Project Structure
-air-writing-launcher/
- camera_test.py # Test your webcam
- hand_tracking.py # Shows hand landmarks (dots + lines)
- air_write_launcher.py # Main air-writing application
-README.md # Project documentation
+- air-writing-launcher
+- camera_test.py # Test your webcam
+- hand_tracking.py # Shows hand landmarks (dots + lines)
+- air_write_launcher.py # Main air-writing application
+- README.md # Project documentation
 
 ## 🛠 Requirements
 
